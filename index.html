@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title >Infor Web</title>
+        <link rel="shortcut icon" href="binoculars2.png">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <H1>
+            Infor Web Portals
+            <span id="showtime"></span>
+            <hr>
+        </H1>
+
+        <div class="portals">
+            <div class="cn">
+                <h2>
+                    China
+                </h2>
+                <ul>
+                    <li><a href="http://cnshvwit1/report/">                         VM Report     </a></li>
+                    <li><a href="https://cnshvwvc01.infor.com/ui/?locale=en_US">    CNSHVWVC01    </a></li>
+                    <li><a href="http://10.86.52.52/cacti/graphs.php">              Cacti         </a></li>
+                    <li><a href="http://10.86.52.52/nagios/">                       Nagios        </a></li>
+                    <li><a href="https://240793824707.signin.amazonaws.cn/console"> AWS CN        </a></li>
+                </ul>
+            </div>
+
+            <div class="global">
+                <h2>
+                    Global
+                </h2>
+                <ul>
+                    <li><a href="https://infor.udemy.com/organization/home/">       Udemy         </a></li>
+                    <li><a href="https://mingle.infor.com">                         Mingle        </a></li>
+                    <li><a href="https://cmdbadmin.infor.com/">                     CMDB Portal   </a></li>
+                    <li><a href="https://usea1wbfixbes1.infor.com:8083/webreports"> BF Web Report </a></li>
+                    <li><a href="https://usea1wbfixwebui.infor.com/login">          BF Web UI     </a></li>
+                </ul>
+            </div>
+
+            <div class="support">
+                <h2>
+                    Support
+                </h2>
+                <ul>
+                    <li><a href="https://login.infor.com/itsc">                   ITSC                </a></li>
+                    <li><a href="https://itsupport-apac.infor.com/">              Remote Support APAC </a></li>
+                    <li><a href="https://glapd.infor.com/">                       Admin Password      </a></li>
+                    <li><a href="https://endpoint.microsoft.com/#home">           MS Endpoint         </a></li>
+                    <li><a href="https://usalvwmbamliv02.infor.com/KeyRecoveryPage.aspx">
+                                                                                  On-Prem BitLocker   </a></li>
+                </ul>
+            </div>
+
+            <div class="resource">
+                <h2>
+                    Resource
+                </h2>
+                <ul>
+                    <li><a href="https://docs.microsoft.com/en-us/powershell/scripting/">       PS Docs</a></li>
+                    <li><a href="https://docs.microsoft.com/en-us/sysinternals/">               Sysinternals        </a></li>
+                    <li><a href="https://www.dell.com/support/kbdoc/zh-hk/000127927/latitude-%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%94%B5%E8%84%91%E5%92%8C%E5%B9%B3%E6%9D%BF%E7%94%B5%E8%84%91%E8%AF%8A%E6%96%AD%E6%8C%87%E7%A4%BA%E7%81%AF%E7%9A%84%E5%8F%82%E8%80%83%E6%8C%87%E5%8D%97">
+                                                                                                Latitude LED Blink  </a></li>
+                    <li><a href="https://support.microsoft.com/en-us/windows/start-your-pc-in-safe-mode-in-windows-10-92c27cff-db89-8644-1ce4-b3e5e56fe234">
+                                                                                                Win 10 SafeMode     </a></li>           
+					<li><a href="https://www.catalog.update.microsoft.com/Search.aspx">         MS Update Catalog   </a></li>																		
+                </ul>
+            </div>
+        </div>
+
+        <div class="time">
+            <a href="https://time.is/China_Standard_Time" id="time_is_link" rel="nofollow" style="font-size:16px"></a>
+            <span id="China_Standard_Time_z429" style="font-size:16px"></span>
+            <script src="./en.js"></script>
+            <script>
+                time_is_widget.init({China_Standard_Time_z429:{template:"TIME&nbsp;DATE", date_format:"year-monthnum-daynum"}});
+            </script>
+        </div>
+
+        <!-- <script>
+            let today = new Date();
+
+            function keepUpdating () {
+                let date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+                let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+                let showtime = date; //+ " " + time;
+                document.getElementById('showtime').innerHTML = showtime;
+            }
+
+            keepUpdating ();
+        </script> -->
+    </body>
+</html>
