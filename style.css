@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Fira Code";
+    src: url(./FiraCode-Regular.woff2);
+}
+
+html {
+    font-family: "Fira Code",Verdana, Geneva, Tahoma, sans-serif;
+    #font-size: 12px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 18px;
+}
+
+#showtime {
+    text-align: right;
+}
+
+li {
+    list-style-type: none;
+}
+
+a:visited {
+    color: blue;
+}
+.portals {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: left;
+    line-height: 150%;
+}
+
+.cn {
+    grid-column: 2;
+
+}
+
+.global {
+    grid-column: 3;
+}
+
+.support {
+    grid-column: 4;
+}
+
+.resource {
+    grid-column: 5;
+}
